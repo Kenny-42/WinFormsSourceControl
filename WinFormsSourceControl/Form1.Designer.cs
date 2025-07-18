@@ -28,64 +28,64 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
+            lblLength = new Label();
+            lblWidth = new Label();
+            txtLength = new TextBox();
+            txtWidth = new TextBox();
+            btnCalculate = new Button();
             SuspendLayout();
             // 
-            // label1
+            // lblLength
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(12, 45);
-            label1.Name = "label1";
-            label1.Size = new Size(50, 20);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            lblLength.AutoSize = true;
+            lblLength.Location = new Point(12, 45);
+            lblLength.Name = "lblLength";
+            lblLength.Size = new Size(54, 20);
+            lblLength.TabIndex = 0;
+            lblLength.Text = "Length";
             // 
-            // label2
+            // lblWidth
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(12, 98);
-            label2.Name = "label2";
-            label2.Size = new Size(50, 20);
-            label2.TabIndex = 1;
-            label2.Text = "label2";
+            lblWidth.AutoSize = true;
+            lblWidth.Location = new Point(12, 98);
+            lblWidth.Name = "lblWidth";
+            lblWidth.Size = new Size(49, 20);
+            lblWidth.TabIndex = 1;
+            lblWidth.Text = "Width";
             // 
-            // textBox1
+            // txtLength
             // 
-            textBox1.Location = new Point(79, 42);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 2;
+            txtLength.Location = new Point(79, 42);
+            txtLength.Name = "txtLength";
+            txtLength.Size = new Size(125, 27);
+            txtLength.TabIndex = 2;
             // 
-            // textBox2
+            // txtWidth
             // 
-            textBox2.Location = new Point(79, 95);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
-            textBox2.TabIndex = 3;
+            txtWidth.Location = new Point(79, 95);
+            txtWidth.Name = "txtWidth";
+            txtWidth.Size = new Size(125, 27);
+            txtWidth.TabIndex = 3;
             // 
-            // button1
+            // btnCalculate
             // 
-            button1.Location = new Point(41, 140);
-            button1.Name = "button1";
-            button1.Size = new Size(137, 49);
-            button1.TabIndex = 4;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnCalculate.Location = new Point(42, 146);
+            btnCalculate.Name = "btnCalculate";
+            btnCalculate.Size = new Size(137, 49);
+            btnCalculate.TabIndex = 4;
+            btnCalculate.Text = "Calculate Area and Perimeter";
+            btnCalculate.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(317, 274);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(btnCalculate);
+            Controls.Add(txtWidth);
+            Controls.Add(txtLength);
+            Controls.Add(lblWidth);
+            Controls.Add(lblLength);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -94,10 +94,10 @@
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
+        private Label lblLength;
+        private Label lblWidth;
+        private TextBox txtLength;
+        private TextBox txtWidth;
+        private Button btnCalculate;
     }
 }
