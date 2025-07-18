@@ -1,22 +1,20 @@
-namespace WinFormsSourceControl
+namespace WinFormsSourceControl;
+public partial class FormAreaAndPerimeterCalculator : Form
 {
-    public partial class FormAreaAndPerimeterCalculator : Form
+    public FormAreaAndPerimeterCalculator()
     {
-        public FormAreaAndPerimeterCalculator()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
+    }
 
-        private void btnCalculate_Click(object sender, EventArgs e)
-        {
-            int length = Convert.ToInt32(txtLength.Text);
-            int width = Convert.ToInt32(txtWidth.Text);
+    private void BtnCalculate_Click(object sender, EventArgs e)
+    {
+        int length = Convert.ToInt32(txtLength.Text);
+        int width = Convert.ToInt32(txtWidth.Text);
 
-            int area = length * width;
-            int perimeter = 2 * (length + width);
+        int area = length * width;
+        int perimeter = 2 * (length + width);
 
-            txtArea.Text = "Area is: " + area;
-            txtPerimeter.Text = "Perimeter is: " + perimeter;
-        }
+        txtArea.Text = "Area is: " + area;
+        txtPerimeter.Text = "Perimeter is: " + perimeter;
     }
 }
