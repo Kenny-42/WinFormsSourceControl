@@ -1,6 +1,6 @@
 ﻿namespace WinFormsSourceControl
 {
-    partial class Form1
+    partial class FormAreaAndPerimeterCalculator
     {
         /// <summary>
         ///  Required designer variable.
@@ -76,18 +76,18 @@
             btnCalculate.Text = "Calculate Area and Perimeter";
             btnCalculate.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // FormAreaAndPerimeterCalculator
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(317, 274);
+            ClientSize = new Size(366, 274);
             Controls.Add(btnCalculate);
             Controls.Add(txtWidth);
             Controls.Add(txtLength);
             Controls.Add(lblWidth);
             Controls.Add(lblLength);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "FormAreaAndPerimeterCalculator";
+            Text = "Area and Perimeter Calculator";
             ResumeLayout(false);
             PerformLayout();
         }

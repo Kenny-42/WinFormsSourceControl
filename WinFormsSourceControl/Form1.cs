@@ -1,8 +1,8 @@
 namespace WinFormsSourceControl
 {
-    public partial class Form1 : Form
+    public partial class FormAreaAndPerimeterCalculator : Form
     {
-        public Form1()
+        public FormAreaAndPerimeterCalculator()
         {
             InitializeComponent();
         }
