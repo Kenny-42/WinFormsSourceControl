@@ -77,7 +77,7 @@
             btnCalculate.TabIndex = 4;
             btnCalculate.Text = "Calculate Area and Perimeter";
             btnCalculate.UseVisualStyleBackColor = true;
-            btnCalculate.Click += btnCalculate_Click;
+            btnCalculate.Click += BtnCalculate_Click;
             // 
             // txtPerimeter
             // 
